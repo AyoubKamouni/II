@@ -95,7 +95,7 @@ input.c:hover {
 
 @media (max-width: 500px) {
   form {
-    width: 70%; 
+    width: 80%; 
     padding: 10px 25px; 
     text-align: center; 
     background-color: rgba(81, 99, 97, 0.85);
