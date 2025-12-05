@@ -27,7 +27,7 @@ body {
 
 
 form {
-  background-color: rgba(245, 189, 189, 0.85);
+  background-color: rgba(255, 255, 255, 0.85);
   padding: 30px 40px;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -79,4 +79,5 @@ input.c {
 
 input.c:hover {
   background-color: #0c1c2d;
+
 }
