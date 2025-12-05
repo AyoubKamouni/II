@@ -38,6 +38,14 @@ form {
 fieldset.a {
   border: none;
 }
+fieldset.a video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 legend {
   font-family: serif;
@@ -61,7 +69,8 @@ input {
   border-radius: 5px;
   border: 1px solid #ccc;
   box-sizing: border-box;
-  transition: border-color 0.3s;
+
+
 }
 
 input:focus {
@@ -70,14 +79,21 @@ input:focus {
 }
 
 input.c {
-  background-color: #007BFF;
+  background-color: #456587;
   color: white;
   border: none;
   font-weight: bold;
+  border-radius: 20px;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+
+
+  
+  
  
 }
 
 input.c:hover {
   background-color: #0c1c2d;
-
 }
