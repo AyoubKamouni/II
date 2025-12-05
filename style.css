@@ -95,13 +95,14 @@ input.c:hover {
 
 @media (max-width: 600px) {
   form {
-    width: 100%; 
-    padding: 15px 20px; 
-    text-align: center; 
+    width: 100%; /* ياخد 100% من عرض الشاشة */
+    padding: 10px 15px; /* قلل الـ padding أكتر عشان يكون متساوي وأحسن */
+    text-align: center; /* يضمن توسيط الحقول داخل الـ form */
+    margin: 0 auto; /* يضمن التوسيط الأفقي الدقيق للـ form نفسه */
+    box-sizing: border-box; /* يحسب الـ padding داخل العرض عشان ما يسببش انحياز */
   }
   
   input.c {
-    width: 80%; 
+    width: 90%; /* زاد عرض الزر أكتر عشان يبقى أحسن مع التوسيط */
   }
 }
-   
