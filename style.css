@@ -27,7 +27,7 @@ body {
 
 
 form {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(81, 99, 97, 0.85);
   padding: 30px 40px;
   border-radius: 15px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
@@ -42,7 +42,7 @@ fieldset.a {
 legend {
   font-family: serif;
   text-align: center;
-  color: #333;
+  color: #150000;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: xx-large;
@@ -51,15 +51,15 @@ legend {
 label {
   
   margin-bottom: 5px;
-  color: #555;
+  color: #dab3b3;
 }
 
 input {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
+  border-radius: 15px;
+  border: 1px solid #827a7a;
   box-sizing: border-box;
 
 
@@ -71,8 +71,8 @@ input:focus {
 }
 
 input.c {
-  background-color: #456587;
-  color: white;
+  background-color: #2a4562;
+  color: rgb(255, 250, 250);
   border: none;
   font-weight: bold;
   border-radius: 20px;
