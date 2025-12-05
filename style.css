@@ -92,15 +92,16 @@ input.c:hover {
 
 
 
+
 @media (max-width: 600px) {
-     form {
-       width: 90%; 
-       max-width: 300px; 
-       padding: 20px 25px; 
-     }
-     
-     input.c {
-       width: 70%; 
-     }
-   }
+  form {
+    width: 100%; 
+    padding: 15px 20px; 
+    text-align: center; 
+  }
+  
+  input.c {
+    width: 80%; 
+  }
+}
    
