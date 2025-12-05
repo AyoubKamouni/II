@@ -84,7 +84,7 @@ input.c {
   border: none;
   font-weight: bold;
   border-radius: 20px;
-  width: 50%;
+  width: 60%;
   display: block;
   margin: 0 auto;
 
@@ -97,3 +97,4 @@ input.c {
 input.c:hover {
   background-color: #0c1c2d;
 }
+
