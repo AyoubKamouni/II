@@ -8,25 +8,47 @@
 </head>
 <body>
 
-  
   <video autoplay muted loop id="bg-video">
     <source src="t/celestial-veil.3840x2160.mp4" type="video/mp4" />
   </video>
  
   <div class="form-container">
-    <form action="https://ayric-auberton.fr/code/html/21.php" method="post">
+    <form id="loginForm">
       <fieldset class="a">
         <legend>Login</legend>
         <section>
-          <label for="User">Username</label><br>
-          <input type="text" ><br>
-          <label for="Password">Password</label><br>
+          <label for="username">Username</label><br>
+          <input type="text" id="username" name="username"><br>
+          <label for="password">Password</label><br>
           <input type="password" id="password" name="password"><br><br>
           <input type="submit" value="login" class="c" >
         </section>
       </fieldset>
     </form>
   </div>
+
+  <script>
+    // Get the form element
+    const loginForm = document.getElementById('loginForm');
+
+    // Add event listener for form submission
+    loginForm.addEventListener('submit', function(event) {
+      event.preventDefault(); // Prevent the form from submitting to the external URL
+
+      // Get the input values
+      const username = document.getElementById('username').value;
+      const password = document.getElementById('password').value;
+
+      // Check if credentials are correct (customize these!)
+      if (username === 'houda' && password === '1234') {
+        // Redirect to the birthday page
+        window.location.href = 'birthday.html';
+      } else {
+        // Show an error message (you can customize this)
+        alert('Invalid username or password. Try again!');
+      }
+    });
+  </script>
 
 </body>
 </html>
